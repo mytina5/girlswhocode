@@ -32,13 +32,17 @@ def obamicon(icecream):
         elif sum > 546:
             color [i] = yellow
 
-    filternew = im.putdata(color)
-    def save_img(im, filternew):
-        im.save(filternew)
-    save_img (im, "newdulceicecream.jpg")
-    newpic = load_img("newdulceicecream.jpg")
-    show_img(newpic)
+    #filternew = im.putdata(color)
+    #def save_img(im, filternew):
+    #    im.save(filternew)
+    #save_img (im, "newdulceicecream.jpg")
+    #newpic = load_img("newdulceicecream.jpg")
+    #show_img(newpic)
 
-im = load_img("dulceicecream.jpg")
-show_img(im)
-obamicon(im)
+#im = load_img("dulceicecream.jpg")
+#show_img(im)
+#obamicon(im)
+
+    new_image2 = Image.new("RGB", (1000, 669), p)
+    new_image2.putdata (color)
+    return new_image2
