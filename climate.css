@@ -1,0 +1,31 @@
+.bigpic1{
+  width: 100%;
+  height: 550px;
+}
+
+.climatew{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 100px;
+  font-family: 'Noticia Text', serif;
+}
+
+.climatewp{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noticia Text', serif;
+}
+
+.sum34{
+  font-family: 'Noticia Text', serif;
+  color: #135e67;
+  text-align: center;
+}
