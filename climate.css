@@ -169,3 +169,45 @@ position: absolute;
     left: 90%;
     transform: translate(-50%, -50%);
 }
+
+
+.circlebuttonspages button {
+  background-color: black; /* Green background */
+  border: 1px solid "white"; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 17px;
+  font-family: 'Noticia Text', serif;
+}
+
+
+.bigborder{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 680px;
+}
+
+.bigborder1{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 620px;
+}
+
+.circlebuttonspages button:not(:last-child) {
+  border-right: none; /* Prevent double borders it was none*/
+}
+
+/* Clear floats (clearfix hack) */
+.circlebuttonspages:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.circlebuttonspages button:hover {
+  background-color: darkblue;
