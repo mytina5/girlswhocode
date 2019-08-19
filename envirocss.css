@@ -453,6 +453,12 @@ body, html {
   border-radius: 50%;
   margin-left: 180px;
   margin-right: 80px;
+  opacity: 1;
+}
+
+.forests:hover {
+    opacity:.7;
+    cursor: pointer;
 }
 
 .animals{
@@ -466,9 +472,13 @@ body, html {
   height: 40%;
   margin-right: 80px;
   border-radius: 50%;
+  opacity:1;
 }
 
-
+.animals:hover {
+    opacity:.7;
+    cursor: pointer;
+}
 
 .climate{
   background-image: url("climate3.jpg");
@@ -480,8 +490,13 @@ body, html {
   width: 20%;
   height: 40%;
   border-radius: 50%;
+  opacity: 1;
 }
 
+.climate:hover {
+    opacity:.7;
+    cursor: pointer;
+}
 
 
 
