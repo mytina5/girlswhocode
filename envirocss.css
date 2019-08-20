@@ -131,6 +131,7 @@
   margin-left: 130px;
 }
 
+
 .correctpic{
   width: 50%;
   height: 75%;
@@ -632,6 +633,7 @@ body, html {
     border-width: 1px;
     border-color: #135e67;
     background-color:#b8ced1;
+
 }
 
 .box2{
@@ -653,6 +655,8 @@ body, html {
   text-align: center;
   font-family: 'Noticia Text', serif;
   color: #135E67;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .vis{
@@ -666,6 +670,8 @@ color: #135E67;
   text-align: center;
   font-family: 'Noticia Text', serif;
   color: #135E67;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .cv{
@@ -681,7 +687,7 @@ color: #135E67;
 .own{
   background-color:#89aeb3;
   width: 30%;
-  height: 440px;
+  height: 480px;
   float: left;
   display: inline;
 }
@@ -696,7 +702,7 @@ color: #135E67;
 .sus{
   background-color: #598e94;
   width: 30%;
-  height: 440px;
+  height: 480px;
   float: left;
   margin-left: 65px;
   display: inline;
@@ -712,7 +718,7 @@ color: #135E67;
 .opt{
   background-color: #135E67;
   width: 30%;
-  height: 440px;
+  height: 480px;
   float: right;
   display: inline;
 }
@@ -735,6 +741,8 @@ color: #135E67;
   text-align: center;
   color: #ffffff;
   font-family: 'Noticia Text', serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .cort{
@@ -742,6 +750,8 @@ color: #135E67;
   text-align: center;
   color: #ffffff;
   font-family: 'Noticia Text', serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
